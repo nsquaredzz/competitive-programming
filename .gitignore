@@ -1,8 +1,11 @@
-.DS_Store
-*.o
-*.out
-a.out
-*.dSYM/
-in.txt
-o1.txt
-o2.txt
+# Allowlist: ignore everything, then allow only source code and docs.
+# Compiled programs, editor files (.un~, .swp) and test files never get committed.
+*
+!*/
+!.gitignore
+!*.cpp
+!*.h
+!*.hpp
+!*.py
+!*.md
+!*.sh
